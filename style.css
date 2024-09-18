@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Freight Big Pro;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+    section{
+      height: 100%;
+      width: 100%;
+      position: relative;
+    }
+
+    nav{
+    
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1vw 2vw;
+     
+    }
+    nav h1{
+      font-size: 2.5vw;
+      display: flex;
+      align-items: center;
+      gap: 0.2vw;
+    } 
+    nav h1 i{
+     font-weight: 600;
+      display: inline-block;
+      rotate: 40deg;
+    
+    }
+    nav a{
+      
+      font-size: 1.5vw;
+      text-decoration: none;
+      font-weight: 400;
+    }
+    nav button{
+      padding: 1vw 1.2vw;
+      border: 2px solid #111;
+      border-radius: 1.5vh;
+      font-size: 1.2vw;
+      font-weight: 600;
+      background-color: transparent;
+    }
+    .part2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       gap: 3.5vw;
+       
+    }
+
+    .center{
+      height: 80%;
+      width: 100%;
+      display: flex;
+      padding: 3vw;
+    }
+    
+    .center-part1{
+     
+      height: 100%;
+      width: 35%;
+
+    }
+    
+    .center-part1 h1{
+    
+      font-size: 4.3vw;
+      line-height:1.2;
+      font-weight: 500;
+     
+    }
+    .center-part1 p{
+      width: 98%;
+      font-size: 1.5vw;
+      margin-top: 1.5vw;
+    }
+
+    .center-part1 button{
+      margin-top: 1.5vw;
+      margin-left: 1vw;
+      margin-bottom: 1vw;
+      padding: 1vw 2vw;
+      background-color: #111;
+      color: #fff;
+      font-size: 1vw;
+      font-weight: 500;
+      border-radius: 1.3vw;
+      border: 2px solid black;
+    }
+    
+
+
+
+    .center-part2{
+      height: 100%;
+      width: 65%;
+      position: relative;
+    }
+    
+    .center-part2 img{
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .section1bottom{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 20px;
+    }
+
+    .section1bottom img{
+      height: 80px;
+      width:  100%;
+      
+    }
+   
+    .section2 .services{
+      margin-top: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-left: 60px;
+     
+    }
+
+    .services h3{
+      background-color: #9AE975;
+      padding: 2px 16px;
+      font-weight: 500;
+      font-size: 30px;
+      border-radius: 5px;
+      margin-left: 50px;
+    }
+
+    .services p{
+      width: 50%;
+      margin-left: 20px;
+      /* background-color: yellow; */
+      padding: 20px 25px;
+       font-size: 20px;
+       font-weight: 300;
+    }
+
+    .container{
+      height: 100vh;
+      width: 100%;
+      padding: 40px 120px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+     
+    }
+
+   .elem{
+      
+      height: 280px;
+      width: 46%;
+      border: 3px solid black;
+      flex-shrink: 0;
+      border-radius: 50px;
+      box-shadow: 0px 15px 0 #111;
+      margin-top: 30px;
+      margin-left: -40px;
+      display: flex;
+    
+    }
+
+    .elem-part1{
+      padding: 20px 30px;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+     
+    }
+    .elem-part1 h2{
+      font-size: 50px;
+      background-color: #9AE975;
+      text-align: center;
+      font-weight: 500;
+      font-family: "Kajiro";
+      width: 70%;
+      padding: 5px 5px;
+      border-radius: 10px;
+    }
+
+    .elem-part1 h3{
+      font-size: 30px;
+      font-weight: 500;
+      align-items: center;
+    }
+    
+    .elem-part1 h3 i{
+      padding: 10px;
+      border-radius: 50%;
+      color: #fff;
+      background-color: #111;
+      
+
+    }
+   
+    .elem-part2 {
+      width: 50%;
+      height: 100%;
+
+
+    }
+
+    .elem-part2 img{
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .black{
+      background-color: #111;
+      color: #fff;
+     
+    }
+
+    
